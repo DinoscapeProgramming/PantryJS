@@ -1,0 +1,25 @@
+{
+  "name": "pantry.js",
+  "productName": "PantryJS",
+  "version": "1.0.3",
+  "description": "A better SDK for interacting with Pantry, with dynamic updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "pantry",
+    "sdk",
+    "api",
+    "basket",
+    "dynamic"
+  ],
+  "author": "DinoscapeProgramming",
+  "license": "MIT",
+  "dependencies": {
+    "bent": "^7.3.12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
