@@ -27,8 +27,12 @@ class Request {
       const response = await action(Request.path(route), payload);
       return response;
     } catch (error) {
-      const errorMessage = await error.text();
-      throw new Error(errorMessage);
+      if (error && typeof error.text === 'function') {
+        const errorMessage = await error.text();
+        throw new Error(errorMessage);
+      }
+
+      throw new Error(error?.message || 'An unknown error occurred');
     }
   }
 
