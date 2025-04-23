@@ -1,8 +1,10 @@
 {
   "name": "pantry.js",
   "productName": "PantryJS",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "A better SDK for interacting with Pantry, with dynamic updates.",
+  "repository": "https://github.com/DinoscapeProgramming/PantryJS",
+  "homepage": "https://github.com/DinoscapeProgramming/PantryJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit 1"
